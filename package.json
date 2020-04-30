@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-istanbul",
+  "version": "0.1.0",
+  "description": "ESLint plugin for istanbul code coverage",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istanbuljs/eslint-plugin-istanbul"
+  },
+  "bugs": {
+    "url": "https://github.com/istanbuljs/eslint-plugin-istanbul/issues"
+  },
+  "homepage": "https://github.com/istanbuljs/eslint-plugin-istanbul#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "eslint",
+    "istanbul",
+    "coverage"
+  ]
+}
