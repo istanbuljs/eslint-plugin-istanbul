@@ -1,4 +1,4 @@
-# Disallow disabling coverage for whole files (no-istanbul-ignore-file)
+# Disallow disabling coverage for whole files (no-ignore-file)
 
 This rule raises a warning about "istanbul ignore file" comments.
 

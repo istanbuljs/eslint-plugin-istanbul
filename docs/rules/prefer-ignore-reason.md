@@ -25,6 +25,8 @@ The following patterns are considered warnings:
 These patterns would not be considered warnings:
 
 ```js
+/* istanbul ignore file: generated */
+
 /* istanbul ignore next: covered in e2e */
 
 /* istanbul ignore if: lazy to tests */

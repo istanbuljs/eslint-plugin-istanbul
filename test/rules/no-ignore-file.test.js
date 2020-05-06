@@ -3,12 +3,12 @@ const rule = require('../../rules/no-ignore-file');
 
 const ruleTester = new RuleTester();
 
-ruleTester.run('no-istanbul-ignore-file', rule, {
+ruleTester.run('no-ignore-file', rule, {
 	valid: [
 		'/* istanbul ignore next */',
 		'/* istanbul ignore if */',
 		'// istanbul ignore next: with comment',
-		'// istanbul ignore function: with comment',
+		'// istanbul ignore else: with comment',
 		'// TODO: check istanbul is covering this properly',
 		'/* we can\'t make istanbul ignore file if we\'re not using istanbul to begin with! */',
 		'// ideally we should have istanbul ignore this, but we can\'t because reasons',

@@ -5,14 +5,18 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "pretest": "node -e 'process.exit(parseInt(process.version.substr(1)) < 9 ? 1 : 0)' || exit; xo",
-    "test": "jest"
+    "pretest": "if-ver -ge 10 || exit; xo",
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
+    "if-ver": "^1.1.0",
     "import-modules": "^2.0.0",
     "jest": "^25.5.2",
     "xo": "^0.30.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0"
   },
   "repository": {
     "type": "git",
