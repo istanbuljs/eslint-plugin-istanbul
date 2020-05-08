@@ -9,7 +9,7 @@ module.exports = {
 			recommended: false
 		},
 		messages: {
-			ignoreFile: 'Ignoring coverage for whole files is not allowed'
+			ignoreFile: 'Prefer config for ignoring files'
 		},
 		schema: [],
 		type: 'suggestion'
