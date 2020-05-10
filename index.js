@@ -2,8 +2,8 @@
 
 module.exports = {
 	rules: {
-		'istanbul/no-ignore-file': require('./rules/no-ignore-file'),
-		'istanbul/prefer-ignore-reason': require('./rules/prefer-ignore-reason')
+		'no-ignore-file': require('./rules/no-ignore-file'),
+		'prefer-ignore-reason': require('./rules/prefer-ignore-reason')
 	},
 	configs: {
 		recommended: {
