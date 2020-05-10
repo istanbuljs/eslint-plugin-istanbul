@@ -19,11 +19,11 @@ Configure it in `package.json`.
     "name": "my-awesome-project",
     "eslintConfig": {
         "plugins": [
-            "instanbul"
+            "istanbul"
         ],
         "rules": {
-            "instanbul/no-ignore-file": "error",
-            "instanbul/prefer-ignore-reason": "error"
+            "istanbul/no-ignore-file": "error",
+            "istanbul/prefer-ignore-reason": "error"
         }
     }
 }
