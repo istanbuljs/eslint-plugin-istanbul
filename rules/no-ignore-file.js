@@ -1,8 +1,13 @@
+'use strict';
+
+const getDocumentationUrl = require('../utils/get-documentation-url');
+
 const ignoreFileRE = /^\s*istanbul\s+ignore\s+file(?=\W|$)/u;
 
 module.exports = {
 	meta: {
 		docs: {
+			url: getDocumentationUrl('no-ignore-file'),
 			category: 'Best Practices',
 			description:
 				'This rule raises a warning about "istanbul ignore file" comments.',

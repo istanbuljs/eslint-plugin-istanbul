@@ -1,3 +1,7 @@
+'use strict';
+
+const getDocumentationUrl = require('../utils/get-documentation-url');
+
 function hasIgnore(comment) {
 	return /^\s*istanbul\s+ignore\s+(if|else|next|file)(?=\W|$)/u.test(comment);
 }
@@ -9,6 +13,7 @@ function hasReason(comment) {
 module.exports = {
 	meta: {
 		docs: {
+			url: getDocumentationUrl('prefer-ignore-reason'),
 			category: 'Best Practices',
 			description:
 				'This rule raises a warning about "istanbul ignore" comments missing a reason.',
