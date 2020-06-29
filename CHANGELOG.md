@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/istanbuljs/eslint-plugin-istanbul/compare/v0.1.1...v0.1.2) (2020-06-29)
+
+
+### Features
+
+* Update peer dependencies to support ESLint v7 ([#5](https://github.com/istanbuljs/eslint-plugin-istanbul/issues/5)) ([7de0a0a](https://github.com/istanbuljs/eslint-plugin-istanbul/commit/7de0a0a4efedf21ba5fb49c7ff667b9a38ba5172))
+
 ### [0.1.1](https://github.com/istanbuljs/eslint-plugin-istanbul/compare/v0.1.0...v0.1.1) (2020-05-10)
 
 
