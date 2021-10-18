@@ -9,14 +9,14 @@
     "test": "jest --coverage"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^8.0.0",
     "if-ver": "^1.1.0",
     "import-modules": "^2.0.0",
     "jest": "^25.5.2",
     "xo": "^0.30.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0 || ^7.0.0"
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "repository": {
     "type": "git",
